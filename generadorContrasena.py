@@ -27,7 +27,7 @@ def generar_numeros(numeros):
     cantidad_numeros= ""
     for k in range(numeros):
         cantidad_numeros += random.choice(caracter)
-        return cantidad_numeros
+        print ( cantidad_numeros )
         
 generar_numeros(numeros)
 
